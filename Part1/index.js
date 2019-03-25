@@ -1,5 +1,3 @@
-// console.log("hello world!")
-
 let board = [];
 
 let play = (clickedID) => {
@@ -17,11 +15,6 @@ let play = (clickedID) => {
   checkWin();
   console.log(board);
 };
-
-
-// const winningCombos = [[0, 1, 2], [3, 4, 5], [6, 7, 8], [0, 3, 6], [1, 4, 7], [2, 5, 8], [0, 4, 8], [2, 4, 6]];
-
-// determine if game results in a sub-Arry in winningCombos
 
 let checkWin = () => {
   let boardFull = true;
