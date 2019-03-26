@@ -11,11 +11,23 @@ let setCard = () => {
 
 // resets each card individually
 let resetCards = () => {
-  const card = document.getElementById(idInput.value);
-  card.style.color = "";
+  let diamonds = document.getElementById("diamonds")
+  let hearts = document.getElementById("hearts")
+  let clubs = document.getElementById("clubs")
+  let spades = document.getElementById("spades")
+  diamonds.style.color = "";
+  hearts.style.color = "";
+  clubs.style.color = "";
+  spades.style.color = "";
 }
 
 //can we reset all cards with a single button push?
-// for (let i = 0; i < .length; i++) {
+
+// const card = document.getElementsByTagName('section')
+
+  // for (let i = 0; i < 5; i++) {
+  //   card[i].style.color = "";
+  // }
+
 //   .color = "";
 // }
