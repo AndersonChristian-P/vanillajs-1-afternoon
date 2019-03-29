@@ -1,6 +1,10 @@
 let idInput = document.getElementById("idInput");
 let colorInput = document.getElementById("colorInput");
 
+let span = document.getElementsByTagName("span")
+
+console.log(span)
+
 console.log(idInput)
 console.log(colorInput)
 
@@ -21,6 +25,7 @@ let resetCards = () => {
   spades.style.color = "";
 }
 
+console.log(span)
 //can we reset all cards with a single button push?
 
 // const card = document.getElementsByTagName('section')
